@@ -1,0 +1,17 @@
+// Ponteiros
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int num =10;
+    int *p;
+    p = &num;
+    
+    // Valor normal
+    printf("Valor do numero é: %d\n", num);
+    printf("Endereço do num é: %p\n", &num);
+    
+    // Valor com ponteiro
+    printf("Valor de P é: %p\n", p); // Endereço apontado
+    printf("Valor apontado por P é: %d", *p); // Conteúdo apontado
+}
